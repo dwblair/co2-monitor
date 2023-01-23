@@ -83,7 +83,7 @@ WHITE = 0x000000
 chart_width = display.width - 40
 chart_height = display.height - 10
 
-sparkline1 = Sparkline(width=chart_width, height=chart_height, max_items=40, y_min=400, y_max=1000, x=35, y=5, color=line_color)
+sparkline1 = Sparkline(width=chart_width, height=chart_height, max_items=40, y_min=0, y_max=1000, x=35, y=5, color=line_color)
 
 text_xoffset = -10
 text_label1a = label.Label(
