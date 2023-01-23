@@ -259,6 +259,11 @@ while True:
             if (scd.CO2>1):
                 print(round(scd.CO2))
 
+                #display.auto_refresh = False
+                #text_area.text=str(round(scd.CO2))
+                #batt_label.text="  " + temp_str+"  " + humid_str + "  " + batt_str
+                #display.auto_refresh = True
+
                 if(SCREEN==0):
                     #circle1.fill=line_color
                     #time.sleep(.05)
